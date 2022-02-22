@@ -1,0 +1,78 @@
+body {
+  margin: 100px 200px 150px 200px;
+}
+
+h1, h2, h3, h4 {
+  font-family: Merriweather;
+  color: #00006A;
+}
+
+p, li {
+  font-family: Raleway;
+  line-height: 150%;
+}
+
+#introduction {
+  padding-bottom: 25px;
+
+}
+
+#contents {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#geography_and_climate, #ski_area_information, #history {
+  padding-bottom: 25px;
+}
+
+#images {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+  #images {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #eastwall {
+    padding-bottom: 20px;
+  }
+}
+
+#eastwall {
+  width: 27vw;
+  /* clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute; */
+}
+
+#map {
+  width: 27vw;
+  /* clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute; */
+}
+
+#images p {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
